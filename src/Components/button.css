@@ -1,0 +1,30 @@
+.square {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top:30px;
+    padding-top: 30px;
+    background-color: lightgray;
+    color: white;
+  }
+  .switch-off {
+    background-color: #f9314d;
+  }
+  .switch-on {
+    background-color: #1bae61;
+  }
+  .bg-light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transition: background-color .5s ease;
+  }
+  .light-off {
+    background-color: black;
+  }
+  .light-on {
+    background-color: white;
+  }
